@@ -1,4 +1,18 @@
-(lang dune 2.0)
+(lang dune 2.5)
+
+(name flex)
+
+(source
+ (github jordwalke/flex))
+
+(license BSD)
+
+(authors "Jordan Walke")
+
+(maintainers "Jordan Walke")
+
+(formatting
+ (enabled_for reason))
 
 (generate_opam_files true)
 
